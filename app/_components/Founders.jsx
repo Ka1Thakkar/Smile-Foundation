@@ -13,7 +13,7 @@ import {motion} from 'framer-motion'
 const founders = [
     {
         name : 'Kavan Thakkar',
-        quote : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. galley of type and scrambled it to make a type. when an unknown printer took a galley of type and scrambled it to make a type specimen book. galley of type and scrambled it to make a type.",
+        quote : "Kavan, currently in his third year pursuing a dual degree in M.Sc. Physics and B.E. Electronics and Instrumentation, is a tech enthusiast with a flair for leadership. Having led the front-end development team at GDSC BITS Pilani, Kavan brings a unique blend of technical expertise and a commitment to making a societal impact. His vision is to build a compassionate India where mental health is embraced without stigma.",
         image : Kavan
     },
     {
@@ -27,8 +27,8 @@ const founders = [
         image : Ritien
     },
     {
-        name : 'Rishi Kanodia',
-        quote : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. galley of type and scrambled it to make a type. when an unknown printer took a galley of type and scrambled it to make a type specimen book. galley of type and scrambled it to make a type.",
+        name : 'Aaron Bimbrahw',
+        quote : "Aaron, a pre-final year Manufacturing Engineering student at BITS Pilani, brings extensive management experience through pivotal roles in prominent organizations like the Placement Unit of BITS and the BITS Consulting Club. With a versatile skill set refined at organizations like Deloitte, Suzuki, Razorpay, NHAI, FinMapp, and IRCS he exemplifies excellence and adaptability. Aaron strives to create a significant influence by challenging the stigma surrounding mental health, demonstrating a dedicated commitment to fostering positive societal transformation.",
         image : Rishi
     },
 ]
