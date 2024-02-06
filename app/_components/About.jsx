@@ -11,7 +11,7 @@ const headingFont = Pontano_Sans({weight:'variable', subsets:['latin']})
 
 const About = () => {
     return (
-        <div className="min-h-[150vh] w-screen relative">
+        <div id="about" className="min-h-[150vh] w-screen relative">
             <div className="absolute top-0 h-[150vh] hidden lg:flex">
                 <Image src={bg} alt="background" className=" w-[100vw] brightness-75 h-[150vh] object-cover" />
             </div>

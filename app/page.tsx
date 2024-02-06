@@ -25,7 +25,7 @@ export default function Home() {
     requestAnimationFrame(raf)
   })
   return (
-    <main className=" bg-[#001612] h-fit w-[100vw]">
+    <main className=" bg-[#001612] h-fit w-[100vw] scroll-smooth">
       <Nav progress={scrollYProgress} />
       <Hero />
       <Founders />
