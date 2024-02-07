@@ -22,7 +22,7 @@ const Experience = () => {
                 <h1 className='xl:text-7xl text-4xl font-black'>
                     The Timeline for Upcoming Initiaves
                 </h1>
-                <p className='text-2xl pt-5 font-extralight'>
+                <p className='lg:text-2xl text-lg pt-5 font-extralight'>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. galley of type and scrambled it to make a type. 
                 </p>
             </div>
