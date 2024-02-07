@@ -11,7 +11,7 @@ interface NvabarProps {
 const Nav = ({progress} : NvabarProps) => {
     const opacity = useTransform(progress, [0,0.025], [0,1])
     return (
-        <motion.nav id='nav' className=" fixed top-0 w-screen h-[10vh] z-[99999] py-1 flex justify-between items-center">
+        <motion.nav id='nav' className={" fixed top-0 w-screen h-[10vh] z-[99999] py-1 flex justify-between items-center"}>
             <motion.div style={{opacity: opacity}} className="absolute w-full h-full bg-[#001612]"></motion.div>
             <Image src={Logo} alt="Logo" className=" lg:h-[50px] h-[40px] object-contain py-1 z-10 lg:pl-10" />
             {/* <div className="lg:flex gap-7 text-xl hidden text-white z-10 pr-10">

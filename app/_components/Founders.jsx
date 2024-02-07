@@ -3,6 +3,7 @@ import Kavan from '@/public/founders/Kavan.png'
 import Navin from '@/public/founders/Navin.png'
 import Ritien from '@/public/founders/Ritien.png'
 import Rishi from '@/public/founders/Rishi.png'
+import styles from './style.module.scss'
 
 import { ArrowLeftCircle, ArrowRightCircle } from 'lucide-react';
 
@@ -60,7 +61,7 @@ const Founders = () => {
                     </p>
                     <div className="w-[25%] h-[2px] bg-[#5DA399]"></div>
                 </div>
-                <motion.div className="w-fit flex flex-col lg:flex-row h-fit overflow-x-hidden text-white gap-20 lg:gap-0">
+                <motion.div className={" w-fit flex flex-col lg:flex-row h-fit text-white gap-20 lg:gap-0 snap-mandatory snap-center"}>
                     {founders.map((founder, i) => {
                         return (
                             <FounderElement i={i} key={i} />
@@ -80,7 +81,7 @@ export default Founders;
 
 const FounderElement = ({i}) => {
     return (
-        <div className="w-[100vw] min-h-[75vh] flex flex-col-reverse lg:flex-row items-center justify-center gap-20 lg:px-40 md:px-10 px-10">
+        <div className={" w-[100vw] min-h-[75vh] flex flex-col-reverse lg:flex-row items-center justify-center gap-20 lg:px-40 md:px-10 px-10 snap snap-center"}>
             <div className='lg:w-7/12 w-12/12'>
                 <div className="lg:flex gap-2 items-center hidden">
                     <p className="text-xl">
